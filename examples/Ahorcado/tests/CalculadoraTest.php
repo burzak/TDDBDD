@@ -15,14 +15,3 @@ class Calculadora {
         return $r;
     }
 }
-
-final class AhorcadoTest extends \PHPUnit\Framework\TestCase {
-    
-    public function test01Multiplico2Por3() {
-        $calc = new Calculadora();
-        $result = $calc->multiplicar(2, 3);
-
-        $this->assertEquals(6, $result);
-    }
-
-}

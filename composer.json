@@ -6,11 +6,6 @@
         }
     },
     "require": {
-        "phpunit/phpunit": "*",
-        "behat/behat": "*",
-        "behat/mink-extension": "*",
-        "behat/mink-goutte-driver": "*",
-        "slim/slim": "*",
-        "slim/psr7": "*"
+        "phpunit/phpunit": "*"
     }
 }
